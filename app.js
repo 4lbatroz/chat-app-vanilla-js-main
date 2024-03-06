@@ -1,5 +1,9 @@
 // @ts-nocheck
+// lage en funksjon som kjører når send knappen blir trykket og kjører et krypterings verktøy basert på teksten som ble skrevet inn
 
+function encryptDecrypt(){
+  
+}
 const johnSelectorBtn = document.querySelector('#john-selector')
 const janeSelectorBtn = document.querySelector('#jane-selector')
 const chatHeader = document.querySelector('.chat-header')
