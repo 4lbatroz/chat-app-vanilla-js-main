@@ -1,5 +1,22 @@
 // @ts-nocheck
+// Base64 Encryption
+function encrypt () {
+  // Encryption
+  var decodedStringBtoA = chatInput.value();
 
+  var encodedStringBtoA = btoa(decodedStringBtoA);
+
+  console.log(encodedStringBtoA);
+}
+
+var fn1 = () => {
+  // Encryption
+  var str = window.btoa('123564896514');
+  console.log('Encrypted:', str);
+  // Decryption
+  var str2 = window.atob(str);
+  console.log('Decrypted:', str2);
+ }
 const johnSelectorBtn = document.querySelector('#john-selector')
 const janeSelectorBtn = document.querySelector('#jane-selector')
 const chatHeader = document.querySelector('.chat-header')
